@@ -1,0 +1,109 @@
+
+
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>プロフィール</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #000;
+      color: #fff;
+      font-family: -apple-system, blinkmacsystemfont, 'Segoe UI', roboto, oxygen, sans-serif;
+      margin: 0;
+      padding: 20px;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .profile {
+      max-width: 500px;
+      width: 100%;
+      padding: 30px;
+    }
+
+    .avatar {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #fff;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 1.8rem;
+      margin: 0 0 16px;
+    }
+
+    .role {
+      font-size: 1.2rem;
+      color: #4fc3f7;
+      margin-bottom: 12px;
+    }
+
+    .summary {
+      font-size: 1rem;
+      line-height: 1.6;
+      color: #ccc;
+      margin-bottom: 20px;
+    }
+
+    .links a {
+      color: #4fc3f7;
+      text-decoration: none;
+      margin: 0 8px;
+    }
+
+    .links a:hover {
+      text-decoration: underline;
+    }
+
+    /* スマートフォン向け調整 */
+    @media (max-width: 480px) {
+      .avatar {
+        width: 100px;
+        height: 100px;
+      }
+
+      h1 {
+        font-size: 1.6rem;
+      }
+
+      .role {
+        font-size: 1.1rem;
+      }
+
+      .summary {
+        font-size: 0.95rem;
+      }
+
+      .links a {
+        margin: 0 6px;
+      }
+    }
+  </style>
+
+
+  <div class="profile">
+    <!-- プロフィール画像（同じディレクトリにある avatar.jpg を使用） -->
+    <img class="avatar" style="margin: 0px 0px 20px;" alt="プロフィール画像" src="image\profile\ProtoDrop.png">
+
+    <h1>ProtoDrop</h1>
+
+    <div class="role">個人開発用<br><font size="3">For personal projects</font><br><br></div>
+
+    <div class="summary">
+      アイディア倉庫、GitLabで遊ぶ<br>Idea vault — playing around with GitLab
+    </div>
+
+    <div class="links">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -- |
+--
+    </div>
+  </div>
